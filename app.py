@@ -5,6 +5,7 @@ from werkzeug.security import check_password_hash, generate_password_hash
 from cs50 import SQL
 from helpers import apology, login_required, lookup, usd
 
+
 # Configure application
 app = Flask(__name__)
 
